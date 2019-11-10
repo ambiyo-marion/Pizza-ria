@@ -7,12 +7,12 @@ body{
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-    color: whitesmoke;
+    color:black;
     line-height: 1.6;
 
 }
 #welcome{
-    background-image: url(../images/5745760-pizza-wallpapers.jpg);
+    background-image: url(../images/strawberry.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -33,19 +33,48 @@ body{
     font-size: 20px;
 }
 
-#showcase .button{
+#welcome .btn{
     font-size: 18px;
     text-decoration: none;
-    color: black;
-    border: black 1px solid;
+    color: #926239;
+    border: #926239 1px solid;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
 
 }
 
-#welcome .button:hover{
-    background: black;
+#welcome .btn:hover{
+    background: gray;
     color: #fff;
 }
-   
+
+.img{
+    background-image: url(../images/688579.jpg);
+    background-size: cover;
+}
+
+.container-fluid{
+    margin: auto;
+    width: 960px;
+}
+.col-md-4.col-sm-12 {
+    text-align: center;
+  }
+  @media only screen and (min-width: 600px) {
+    .container-fluid {
+      width: 95%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .container-fluid {
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .container-fluid {
+      width: 70%;
+    }
+  } 

@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Orders</title>
 </head>
-<body>
-    <ul class="nav justify-content-end bg-aqua color-text-secondary mr-5">
-        <li class="navi">
-            <a class="navi-link bg-info text-white" href="">Home</a>
+<body class="img">
+    <br>
+    <ul class="nav justify-content-center bg-aqua color-text-secondary mr-5">
+        <li class="nav-item">
+            <a class="nav-link bg-info text-white" href="index.html">Home</a>
         </li>
 
-        <li class="navi">
-            <a class="navi-link bg-info text-white" href="contact">Contact Us</a>
+        <li class="nav-item">
+            <a class="nav-link bg-info text-white" href="about us">About Us</a>
         </li>
     </ul>
-
+    <br>
     <div class="container-fluid">
         <div class="jumbotron">
+            <div class="page-header">
+            </div>
             <div class="row">
                 <div class="col-md-4 col-sm-12">
-                    <img class="first" align="center" src="">
-                    <h2 class="first">Pizza</h2>
+                    
+                    <br>
+                    <h3 class="one">Pizza</h3>
                     <select class="form-control size">
                         <option label="Small" value="550">Small</option>
                         <option label="Medium" value="750">Medium</option>
@@ -30,8 +36,8 @@
                     </select>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                        <img class="first" align="center" src="">
-                        <h2 class="first">Pizza</h2>
+                        <br>
+                        <h3 class="two">Crust</h3>
                         <select class="form-control crust">
                             <option label="Crispy" value="150">Crispy</option>
                             <option label="Stuffed" value="250">Stuffed</option>
@@ -39,8 +45,8 @@
                         </select>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                            <img class="first" align="center" src="">
-                            <h2 class="first">Pizza</h2>
+                            <br>
+                            <h3 class="three">Toppings</h3>
                             <select class="form-control toppings">
                                 <option label="Pepperoni" value="150">Pepperoni</option>
                                 <option label="Onions" value="250">Onions</option>
@@ -48,9 +54,55 @@
                             </select>
                         </div>
             </div>
+        <br>
+        <div class="text-center">
+            <button class="btn btn-info order" type="submit">Order</button>
         </div>
-        
+        <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Order No.</th>
+                    <th scope="col">Pizza Size</th>
+                    <th scope="col">Crust</th>
+                    <th scope="col">Toppings</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thead>
+            <tbody id="pizza">
+                <tr>
+                    <th scope="row">1</th>
+                    <td id="size"></td>
+                    <td id="toppings"></td>
+                    <td id="crust"></td>
+                    <td id="total"></td>                        
+                </tr>
+            </tbody>
+        </table>
+        <div class="add-buttons">
+            <div class="text-center">
+                <button class="btn btn-info add-pizza" type="submit">Add Another</button>
+                <div class="add-info"></div>
+                <h3>The total is: <span></span></h3>
+                <h5>Would you like it delivered? For an extra charge of <em>300</em></h5>
+                <h4>Thank You! Your order has been received </h4>
+                <div class="location text-center">
+                    <input type="text" size="30" placeholder="location" required />
+                    <button class="btn btn-info complete" type="submit">Complete</button>
+                </div>
+            </div>
+            <br>
+            <button class="btn btn-info yes" type="submit">Yes</button>
+            <button class="btn btn-info no" type="submit">No</button>
+        </div>
+         <div class="text-center">
+            <button class="btn btn-info check-out" type="submit">Checkout</button>
+        </div>
+         </div>
     </div>
-    
+    <script src="Js/jquery-3.4.1.js"></script>
+    <script src="Js/popper.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/scripts.js"></script>
 </body>
 </html>
