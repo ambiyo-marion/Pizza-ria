@@ -30,6 +30,7 @@
                     <br>
                     <h3 class="one">Pizza</h3>
                     <select class="form-control size">
+                        
                         <option label="Small" value="550">Small</option>
                         <option label="Medium" value="750">Medium</option>
                         <option label="Large" value="1200">Large</option>
@@ -79,26 +80,42 @@
                 </tr>
             </tbody>
         </table>
-        <div class="add-buttons">
-            <div class="text-center">
-                <button class="btn btn-info add-pizza" type="submit">Add Another</button>
-                <div class="add-info"></div>
-                <h3>The total is: <span></span></h3>
-                <h5>Would you like it delivered? For an extra charge of <em>300</em></h5>
-                <h4>Thank You! Your order has been received </h4>
-                <div class="location text-center">
-                    <input type="text" size="30" placeholder="location" required />
-                    <button class="btn btn-info complete" type="submit">Complete</button>
-                </div>
+        <div class="order">
+            <button type="button"class="btn bg-primary" id="the-order">Order</button>
+        </div>
+            <div class="">
+                <button class="btn btn-info" id="add-pizza" type="button">Add Another</button>
             </div>
-            <br>
-            <button class="btn btn-info yes" type="submit">Yes</button>
-            <button class="btn btn-info no" type="submit">No</button>
-        </div>
+                
+                
+                <div class="delivery">
+                    <h3 id="total1">The total is: <span></span></h3> 
+                </div>
+                <div class="text">
+                    <h5>Would you like it delivered? For an extra charge of <em>300</em></h5>
+                    <button type="button" class="btn bg-primary" id="yes">Yes</button>
+                    <button class="btn bg-primary" id="no" type="button">No</button>
+                </div>
+                  
+                <div class="location">
+                    <p>Please enter location</p>
+                    <input type="text" placeholder="location" id="locale" required>
+                    <button type="button" id="submit" class="btn bg-primary">Submit</button>
+                </div>
+                <div class="complete-order">
+                    <button class="btn btn-info" id="complete" type="button">Complete</button>
+                </div>
+                <div class="response">
+
+                </div>
+                <div class="add-info">
+               
+                    </div>
+                
          <div class="text-center">
-            <button class="btn btn-info check-out" type="submit">Checkout</button>
+                <h4>Thank You! Your order has been received </h4>
+            
         </div>
-         </div>
     </div>
     <script src="Js/jquery-3.4.1.js"></script>
     <script src="Js/popper.js"></script>

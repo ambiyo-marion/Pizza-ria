@@ -1,15 +1,17 @@
 # Pizza-ria pizza site
 
-## Steve Wanyinyi Wamai
+## Steve Wamai
 
 ## Description
+
 This webpage is the official page of the pizza-ria pizza house.
 This webpage allows anyone to order the pizza of their choosing from
 the comfort of their home.
 
 ## Deployment
+
 The project can be accessed through github.
-Through the following link: https://wamaisw.github.io/Pizza-ria/
+Through the following link: <https://wamaisw.github.io/Pizza-ria/>
 
 ## Technologies Used
 
@@ -25,6 +27,7 @@ Through the following link: https://wamaisw.github.io/Pizza-ria/
 - The user can toggle through.
 
 ## Bugs
+
 No known bugs at the time.
 
 ## Support and Contact Details
@@ -33,4 +36,4 @@ No known bugs at the time.
 
 ## License
 
- - MIT License
+- MIT License

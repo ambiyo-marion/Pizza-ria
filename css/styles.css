@@ -82,3 +82,32 @@ body{
     text-align: center;
     font-size: small;
   }
+  .add-info {
+    display: none;
+  }
+  .delivery {
+    display: none;
+  }
+  .text {
+    display: none;
+  }
+  .text-center  {
+    display: none;
+  }
+  .location {
+    text-align: center;
+  }
+ .complete-order {
+   margin-top: 10px;
+   float: right;
+ }
+ .text {
+   margin-top: 20px;
+   text-align: center;
+ }
+ .response {
+   text-align: center;
+ }
+ .add-info {
+   text-align: center;
+ }
